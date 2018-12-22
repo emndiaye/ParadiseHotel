@@ -5,6 +5,11 @@ public class Client {
 	String nom;
 	String prenom;
 	
+	pyblic client(String nom,String prenom){
+		this.nom=nom;
+		this.prenom=prenom;
+	}
+	
 	public static void main(String[] args) {
 				Client c = new Client("Jean", "Dupond"); 
 		System.out.println("Je m'appelle "+c.getNom()+" "+c.getPrenom()); 	
