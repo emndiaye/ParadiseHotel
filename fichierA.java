@@ -32,4 +32,8 @@ public class Initialiser extends ActionBarActivity {
 	return 1;
 	}
 	
+	public int retourner(){
+	return 2;
+	}
+	
 }
