@@ -27,4 +27,9 @@ public class Initialiser extends ActionBarActivity {
 		editor.commit();
 	}
 	
+	public int afficher(){
+		
+	return 1;
+	}
+	
 }
