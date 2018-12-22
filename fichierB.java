@@ -203,4 +203,7 @@ public class CarteToWallet1 extends Activity {
         alertDialog.show();
 	}
 
+	public int affichage(){
+		return 0;
+	}
 }
