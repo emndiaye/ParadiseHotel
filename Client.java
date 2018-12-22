@@ -7,7 +7,7 @@ public class Client {
 	
 	public static void main(String[] args) {
 				Client c = new Client("Jean", "Dupond"); 
-		System.out.println("Je m'appelle "+p.getNom()+" "+p.getPrenom()); 	
+		System.out.println("Je m'appelle "+c.getNom()+" "+c.getPrenom()); 	
  
 	}
  
