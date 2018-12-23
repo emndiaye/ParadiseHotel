@@ -4,10 +4,12 @@ public class Client {
  
 	String nom;
 	String prenom;
+	String telephone
 	
-	pyblic client(String nom,String prenom){
+	pyblic client(String nom,String prenom,String telephone){
 		this.nom=nom;
 		this.prenom=prenom;
+		this.telephone=telephone;
 	}
 	
 	public static void main(String[] args) {
@@ -30,5 +32,13 @@ public class Client {
  
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+	
+	public String getTelephone() {
+		return telephone;
+	}
+ 
+	public void setTelephone(String prenom) {
+		this.telephone = telephone;
 	}
 }
