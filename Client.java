@@ -6,7 +6,7 @@ public class Client {
 	String prenom;
 	String telephone
 	
-	pyblic client(String nom,String prenom,String telephone){
+	public client(String nom,String prenom,String telephone){
 		this.nom=nom;
 		this.prenom=prenom;
 		this.telephone=telephone;
