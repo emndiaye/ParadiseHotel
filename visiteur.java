@@ -3,9 +3,11 @@ package javaBasics;
 public class Visiteur {
  
 	String ipAdress;
+	int visitNumber;
 	
-	public visiteur(String ipAdress){
+	public visiteur(String ipAdress, int visitNumber){
 		this.ipAdress=ipAdress;
+		this.visitNumber=visitNumber;
 	}
 	
 	public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class Visiteur {
  	public String getIpAdress() {
 		return ipAdress;
 	}
- 
+ 	public String visitNumber() {
+		return visitNumber;
+	}
 	
 }
