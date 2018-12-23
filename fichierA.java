@@ -1,6 +1,4 @@
-package com.sewa.sewapersonal;
-
-import com.sewa.sewapersonal.R;
+package javaBasics;;
 
 import android.support.v7.app.ActionBarActivity;
 import android.content.SharedPreferences;
