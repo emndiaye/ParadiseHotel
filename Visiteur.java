@@ -11,7 +11,7 @@ public class Visiteur {
 	}
 	
 	public static void main(String[] args) {
-				Visiteur v = new Visiteur("125.2.2.87"); 
+				Visiteur v = new Visiteur("125.2.2.87", 3); 
 		System.out.println(v.getIpAdress()); 	
  
 	}
