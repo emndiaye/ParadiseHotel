@@ -5,13 +5,13 @@ public class Visiteur {
 	String ipAdress;
 	int visitNumber;
 	
-	public visiteur(String ipAdress, int visitNumber){
+	public Visiteur(String ipAdress, int visitNumber){
 		this.ipAdress=ipAdress;
 		this.visitNumber=visitNumber;
 	}
 	
 	public static void main(String[] args) {
-				Visiteur v = new Visiteur("125.2.2.87"); 
+				Visiteur v = new Visiteur("125.2.2.87", 3); 
 		System.out.println(v.getIpAdress()); 	
  
 	}
@@ -19,7 +19,7 @@ public class Visiteur {
  	public String getIpAdress() {
 		return ipAdress;
 	}
- 	public String visitNumber() {
+ 	public int visitNumber() {
 		return visitNumber;
 	}
 	
