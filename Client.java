@@ -4,9 +4,9 @@ public class Client {
  
 	String nom;
 	String prenom;
-	String telephone
+	String telephone;
 	
-	public client(String nom,String prenom,String telephone){
+	public Client(String nom,String prenom,String telephone){
 		this.nom=nom;
 		this.prenom=prenom;
 		this.telephone=telephone;
