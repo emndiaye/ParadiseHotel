@@ -13,7 +13,7 @@ public class Client {
 	}
 	
 	public static void main(String[] args) {
-				Client c = new Client("Jean", "Dupond"); 
+				Client c = new Client("Jean", "Dupond","123467864"); 
 		System.out.println("Je m'appelle "+c.getNom()+" "+c.getPrenom()); 	
  
 	}
