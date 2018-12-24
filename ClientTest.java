@@ -4,26 +4,17 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class CalculatorImplTest {
+public class ClientTest {
 
 	@Test
-	public final void testMultiply() {
+	public final void testNom() {
 		fail("Not yet implemented"); // TODO
 	}
 
 	@Test
-	public final void testDivide() {
+	public final void testPrenom() {
 		fail("Not yet implemented"); // TODO
 	}
 
-	@Test
-	public final void testAdd() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	public final void testSubstract() {
-		fail("Not yet implemented"); // TODO
-	}
-
+	
 }
