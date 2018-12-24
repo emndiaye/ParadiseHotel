@@ -15,6 +15,10 @@ public class ClientTest {
 	public final void testPrenom() {
 		fail("Not yet implemented"); // TODO
 	}
+	
+	public int somme(){
+	return 4;
+	}
 // ceci est un test
 	
 }
