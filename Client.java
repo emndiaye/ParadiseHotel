@@ -37,6 +37,10 @@ public class Client {
 	public String getTelephone() {
 		return telephone;
 	}
+	
+	public int somme(){
+		return 2;
+	}
  
 	public void setTelephone(String prenom) {
 		this.telephone = telephone;
